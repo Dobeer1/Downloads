@@ -1,4 +1,4 @@
-# C:\Users\XXXX\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+# %AppData%\Microsoft\Windows\PowerShell\PSReadLine
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa" /v RunAsPPL /t REG_DWORD /d 0 /f
 
